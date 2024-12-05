@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T14:44:02 IST" name="Suite" finished-at="2024-12-04T14:44:13 IST" duration-ms="10907">
+  <suite started-at="2024-12-05T11:25:14 IST" name="Default suite" finished-at="2024-12-05T11:25:37 IST" duration-ms="22834">
     <groups>
     </groups>
-    <test started-at="2024-12-04T14:44:02 IST" name="Test" finished-at="2024-12-04T14:44:13 IST" duration-ms="10907">
-      <class name="com.action.Mousehover">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.action.Mousehover@74235045]" started-at="2024-12-04T14:44:02 IST" name="setUp" finished-at="2024-12-04T14:44:08 IST" duration-ms="5418" status="PASS">
+    <test started-at="2024-12-05T11:25:14 IST" name="Default test" finished-at="2024-12-05T11:25:37 IST" duration-ms="22834">
+      <class name="com.frame.Demo1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.frame.Demo1@765d7657]" started-at="2024-12-05T11:25:14 IST" name="setup" finished-at="2024-12-05T11:25:21 IST" duration-ms="6914" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mAction()[pri:0, instance:com.action.Mousehover@74235045]" started-at="2024-12-04T14:44:08 IST" name="mAction" finished-at="2024-12-04T14:44:13 IST" duration-ms="5421" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testFrameYoutube()[pri:0, instance:com.frame.Demo1@765d7657]" started-at="2024-12-05T11:25:21 IST" name="testFrameYoutube" finished-at="2024-12-05T11:25:37 IST" duration-ms="15846" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mAction -->
-      </class> <!-- com.action.Mousehover -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testFrameYoutube -->
+      </class> <!-- com.frame.Demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

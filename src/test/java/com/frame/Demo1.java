@@ -18,8 +18,8 @@ public class Demo1 {
 	@BeforeClass
 	public void setup() {
 
-		System.setProperty("webdriver.edge.driver", "D:/msedgedriver.exe");
-		driver = new EdgeDriver();
+		System.setProperty("webdriver.gecko.driver", "D:/geckodriver133.exe");
+		driver = new FirefoxDriver();
 	}
 
 	@Test
